@@ -1,0 +1,666 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #014E56;
+    padding: 73px 165px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+nav>ul>li>a {
+    color: white;
+    font-size: 18px;
+
+}
+
+nav>ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header__navigatsion {
+    display: flex;
+    gap: 50px;
+}
+
+.header__navigatsion>button {
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 153px;
+    height: 48px;
+    background-color: #014E56;
+    color: white;
+}
+
+.header__navigatsion>button:hover {
+    background-color: black;
+    color: white;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+.header__icons {
+    width: 160px;
+    height: 40px;
+}
+
+.burger {
+    display: none;
+}
+
+.first__section>h1 {
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: white;
+
+}
+
+.first__section>p {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    width: 730px;
+    height: 112px;
+    color: white;
+    margin: 40px 0;
+}
+
+.first__section {
+    background-color: #014E56;
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 165px;
+
+}
+
+.main__section {
+    background-color: #004047;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__section__text {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.section__card {
+    background: #012F34;
+    width: 350px;
+    height: 274.73px;
+    position: relative;
+
+}
+
+
+.section__card__2 {
+    background: #012F34;
+    width: 350px;
+    height: 274.73px;
+    position: relative;
+
+}
+
+.section__card__3 {
+    background: #012F34;
+    width: 350px;
+    height: 274.73px;
+    position: relative;
+
+}
+
+.Nikita__text {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #79C8C7;
+
+}
+
+.Nikita__img {
+    margin: 44px 127px 0;
+}
+
+.Nikita__text__2 {
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+
+.first__div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 165px;
+    margin: 69px 0;
+    gap: 30px;
+}
+
+.section__text {
+    margin: 71px 0 0 0;
+
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+
+.section__card>.pluys {
+    position: absolute;
+    bottom: -25px;
+    left: 150px;
+}
+
+.section__card__2>.pluys {
+    position: absolute;
+    bottom: -25px;
+    left: 150px;
+}
+
+.section__card__3>.pluys {
+    position: absolute;
+    bottom: -25px;
+    left: 150px;
+}
+
+.Bitmap {
+    width: 165px;
+    height: 22.79px;
+}
+
+.jakarta {
+    width: 184px;
+    height: 18.72px;
+}
+
+.Object {
+    width: 180px;
+    height: 22.79px;
+}
+
+.Object__1 {
+    width: 165px;
+    height: 22.79px;
+}
+
+.gadgets {
+    width: 98px;
+    height: 36.62px;
+}
+
+.some__text {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+
+.second__section {
+    background-color: #012F34;
+    padding: 113px 0 0;
+    height: 355px;
+
+}
+
+.section__img {
+    display: flex;
+    gap: 80px;
+    margin: 52px 165px 52px;
+}
+
+.main__section__1 {
+    background-color: #F67E7E;
+    display: flex;
+    justify-content: space-between;
+    padding: 76px 261.5px;
+
+}
+
+.main__text {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #012F34;
+}
+
+.main__section__1>button {
+    width: 153px;
+    height: 48px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #F67E7E;
+}
+
+.main__section__1>button:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: #002529;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 159px;
+}
+
+.icon {
+    width: 104px;
+    height: 24px;
+}
+
+@media (max-width:770px) {
+    header {
+        width: 770px;
+        padding: 64px 39.5px;
+    }
+
+    .first__section>h1 {
+        font-family: Livvic;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+
+    .first__section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first__section>p {
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+        width: 457px;
+        margin: 24px 0;
+    }
+
+    .first__div {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 88px;
+    }
+
+    .section__card {
+        width: 281px;
+        height: 281px;
+
+
+    }
+
+    .Nikita__img {
+        margin: 32px 92.5px 16px;
+    }
+
+    .section__card {
+        position: relative;
+    }
+
+    .section__card>.pluys {
+        position: absolute;
+        bottom: -25px;
+        left: 110px;
+    }
+
+    .section__card__2 {
+        position: relative;
+        width: 281px;
+        height: 281px;
+    }
+
+    .section__card__2>.pluys {
+        position: absolute;
+        bottom: -25px;
+        left: 110px;
+    }
+
+    .section__card__3 {
+        position: relative;
+        height: 281px;
+        width: 281px;
+        margin: 36px 150px;
+    }
+
+    .section__card__3>.pluys {
+        position: absolute;
+        bottom: -25px;
+        left: 110px;
+    }
+
+    .second__section {
+        background-color: #004047;
+    }
+
+    .some__text>p {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: white;
+    }
+
+    .section__img {
+        gap: 49px;
+        margin: 48px 39px;
+    }
+
+    .Bitmap {
+        width: 103px;
+        height: 17px;
+    }
+
+    .jakarta {
+        width: 114px;
+        height: 14px;
+    }
+
+    .Object {
+        width: 112px;
+        height: 17px;
+    }
+
+    .Object__1 {
+        width: 103px;
+        height: 17px;
+    }
+
+    .gadgets {
+        width: 61px;
+        height: 28px;
+    }
+
+    .main__text {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+        width: 336px;
+        margin: 10px;
+    }
+
+    .main__section__1 {
+        padding: 84px 97px;
+    }
+
+    footer {
+        padding: 32px 56px;
+    }
+}
+
+
+@media (max-width:430px) {
+    .burger {
+        display: block;
+    }
+
+    .burger>img {
+        width: 20px;
+        height: 17px;
+        margin: 10px 0;
+    }
+
+    header {
+        width: 430px;
+    }
+
+    .header__navigatsion {
+        display: none;
+    }
+
+    .header__icon {
+        width: 127.96px;
+        height: 32px;
+    }
+
+    .first__section {
+        width: 430px;
+        padding: 0;
+    }
+
+    .first__section>h1 {
+        font-family: Livvic;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+
+    .first__section>p {
+        width: 327px;
+        height: 196px;
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin: 16px 54px;
+    }
+
+    .first__div {
+        padding: 0;
+    }
+
+    .main__section__text {
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: center;
+
+    }
+
+    .main__section {
+        width: 430px;
+    }
+
+    .section__card {
+        width: 327px;
+        height: 281px;
+        margin: 0 55px;
+    }
+
+    .section__card__2 {
+        width: 327px;
+        height: 281px;
+        margin: 0 55px;
+    }
+
+    .section__card__3 {
+        width: 327px;
+        height: 281px;
+        margin: 0 55px;
+    }
+
+    .section__card>.Nikita__img {
+        margin: 32px 115px 16px;
+    }
+
+    .section__card {
+        position: relative;
+    }
+
+    .section__card>.pluys {
+        position: absolute;
+        bottom: -25px;
+        left: 140px;
+    }
+
+    .section__card__2 {
+        width: 327px;
+        height: 281px;
+        margin: 0 55px;
+    }
+
+    .section__card__2>.Nikita__img {
+        margin: 32px 115px 16px;
+    }
+
+    .section__card__2 {
+        position: relative;
+    }
+
+    .section__card__2>.pluys {
+        position: absolute;
+        bottom: -25px;
+        left: 140px;
+    }
+
+    .section__card__3 {
+        width: 327px;
+        height: 281px;
+    }
+
+    .section__card__3>.Nikita__img {
+        margin: 32px 115px 16px;
+    }
+
+    .section__card__3 {
+        position: relative;
+    }
+
+    .section__card__3>.pluys {
+        position: absolute;
+        bottom: -25px;
+        left: 140px;
+    }
+
+    .second__section {
+        width: 430px;
+        padding: 0;
+
+    }
+
+    .section__img {
+        display: flex;
+        flex-direction: column;
+        height: 517px;
+        margin: 52px 146px;
+        gap: 30px;
+
+    }
+
+    .main__section__1 {
+        padding: 83px 24px;
+    }
+
+    .main__section__1>button {
+        margin: 24px 100px;
+    }
+
+
+
+
+
+    .Bitmap {
+        width: 146.56px;
+        height: 19.81px;
+    }
+
+    .jakarta {
+        width: 162.21px;
+        height: 16.32px;
+    }
+
+    .Object {
+        width: 159.37px;
+        height: 19.81px;
+    }
+
+    .Object__1 {
+        width: 146.56px;
+        height: 19.81px;
+    }
+
+    .gadgets {
+        width: 86.8px;
+        height: 32.63px;
+
+    }
+
+    .main__section__1 {
+        display: flex;
+        flex-direction: column;
+        width: 430px;
+    }
+
+    .main__section__1>.main__text {
+        width: 327px;
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 24px;
+        padding: 66px 0;
+    }
+
+    footer>.logo {
+        width: 95.97px;
+        height: 24px;
+    }
+
+    footer>.icon {
+        width: 107px;
+        height: 25px;
+    }
+}
